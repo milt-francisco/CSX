@@ -1,4 +1,4 @@
-# CSX Challeng: Inventory
+# CSX Challenge: Inventory
 Challenge: Inventory
 Declare a function Inventory that, when invoked with the new keyword, returns objects that keep track of an inventory. Your Inventory function should accept two arguments: item, a string, and price, a number. The object returned should contain a property whose key matches the passed-in item argument, and is set to another object with two properties: price (which will be set to the price argument the method was called with) and quantity, which should be initially set to 1.
 
