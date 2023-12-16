@@ -10,9 +10,9 @@ The method addItem will add additional items to the object returned from the con
 The method deleteItem should accept a string as an argument. If a matching property exists on the Inventory object, decrement its quantity by 1 and return the string 'Deleted'. If the quantity is already 0, return the string 'Nothing to delete'.
 
 The method checkItem should take a string as an argument and check to see whether that string exists as a property on the Inventory object. If so, return the object for that item. If not, return the string 'Item is not in inventory'.
-
-
-Challenge: Chain Stores
+\n
+\n
+Challenge: Chain Stores \n
 Declare a class Chain that creates a new instance of a Chain object when invoked with the new keyword. Each Chain object should have a name property, a totalStores property, and a locations property. The name property will be assigned to a string which is passed in as an argument when calling the Chain function. The totalStores property should be initialized to 0 and the locations property set to an array representing all the existing franchises of that chain store. When a new object is initiated, the locations array should be empty.
 
 Declare another class Franchise that creates a new instance of a Franchise object when invoked with the new keyword. Each Franchise object should have an owner property and a city property, both of which will be set equal to strings passed in as arguments to the constructor.
